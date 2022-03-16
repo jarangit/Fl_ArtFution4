@@ -6,20 +6,22 @@ const AccodingSection = () => {
     return (
       <div className="aq_box">
         <div className="aq_box_item" onClick={() => setOpen(!isOpen)}>
-          <h4>{title}</h4>
+          <p>{title}</p>
         </div>
         <div className={`aq_box_item_content ${!isOpen ? "active" : ""}`}>
           <div className="aq_content">{content}</div>
-          {list && list()}
+          {/* {list && list()} */}
         </div>
       </div>
     );
   };
   return (
     <div>
-      <div className="div">
-        <p>Our Faq's</p>
-        <h2>Have any questions?</h2>
+      <div className="accodong">
+        <div className="accoding_title">
+          <p>Our Faq's</p>
+          <h2>Have any questions?</h2>
+        </div>
 
         <div>
           {dataAccoding.map((item, key) => (

@@ -1,0 +1,17 @@
+.menu_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.menu_container > ul {
+  display: flex;
+}
+.menu_container > ul > li {
+  margin-left: 20px;
+}
+
+.menu_link:hover {
+  color: #34a2f7;
+  transition: all 0.5s;
+}

@@ -1,0 +1,23 @@
+.over {
+  text-align: center;
+}
+.over_content {
+  color: white;
+  background-color: var(--jr_blue);
+  padding: 100px 0;
+  text-align: center;
+}
+
+.over_but {
+  background-color: white;
+  padding: 10px 30px;
+  margin-top: 20px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  color: var(--jr_blue);
+  font-weight: bold;
+}
+.over_img {
+  margin: 30px auto;
+}

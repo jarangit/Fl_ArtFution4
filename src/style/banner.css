@@ -1,0 +1,36 @@
+.banner {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 200px 0;
+  gap: 30px;
+}
+.banner_comtent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  max-width: 300px;
+  text-align: center;
+}
+.banner_comtent > h1 > span {
+  color: var(--jr_blue);
+}
+.banner_comtent > p {
+  color: orange;
+  max-width: 200px;
+}
+
+.banner_but {
+  background-color: var(--jr_blue);
+  outline: none;
+  border-radius: 50px;
+  padding: 10px 30px;
+  color: white;
+  transition: all 0.3s;
+}
+.banner_but:hover {
+  margin-left: 20px;
+}

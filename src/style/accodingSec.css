@@ -1,0 +1,66 @@
+.accodong {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 200px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.accoding_title {
+  text-align: center;
+}
+.accoding_title > p {
+  color: orange;
+}
+.aq {
+  padding: 20px;
+}
+
+.aq_box {
+  width: 100%;
+}
+.aq_box_item > p {
+  margin: 0;
+  display: block;
+  border-bottom: 2px solid #dadada;
+  color: #333;
+  padding: 14px 45px 14px 14px;
+  font-size: 16px;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  font-weight: bold;
+}
+.aq_box_item > p::before {
+  content: "+";
+  font-weight: 900;
+  font-size: 14px;
+  width: 35px;
+  height: 45px;
+  line-height: 48px;
+  background: #e3e7ea;
+  position: absolute;
+  top: 4px;
+  right: 0px;
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+  cursor: pointer;
+}
+
+.aq_box_item_content {
+  font-size: 12px;
+
+  overflow: hidden;
+  transition: max-height 0.3s cubic-bezier(1, 0, 1, 0);
+  height: auto;
+  max-height: 9999px;
+}
+.aq_box_item_content.active {
+  max-height: 0;
+  transition: max-height 0.35s cubic-bezier(0, 1, 0, 1);
+}
+
+.aq_content {
+  padding: 20px 30px;
+}

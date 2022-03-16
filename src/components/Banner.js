@@ -9,9 +9,11 @@ const Banner = () => {
           GET THE MONEY YOU NEED <span>NOW.</span>
         </h1>
         <p>BORROW FROM 3 TO 36 MONTHS FREE SAME DAY FUNDING</p>
-        <Link to="/page1">GTE STARTED</Link>
+        <Link to="/page1" className="banner_but">
+          GTE STARTED
+        </Link>
         <div className="banner_content_img">
-          <img src="/img/secure_2_2.png" alt="" width={"300px"} />
+          <img src="/img/secure_2_2.png" alt="" width={"325px"} />
         </div>
       </div>
 

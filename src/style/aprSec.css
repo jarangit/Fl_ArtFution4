@@ -1,0 +1,21 @@
+.apr {
+  background-color: #edf6fd;
+  padding: 100px 0;
+}
+.apr_content {
+  color: rgb(160, 160, 160);
+}
+.apr_table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.apr_table,
+th,
+td {
+  border: 1px solid rgb(194, 194, 194);
+  font-size: 15px;
+  padding: 5px;
+  text-align: center;
+}
