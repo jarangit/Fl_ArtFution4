@@ -9,7 +9,7 @@ const HereSection = () => {
         </div>
 
         <div className="here_content">
-          <h3>Here is how it works</h3>
+          <h2>Here is how it works</h2>
           <p>
             We have a very quick, easy and transparent 3 step process for loans
           </p>
@@ -17,14 +17,14 @@ const HereSection = () => {
             <li>
               <img src="/img/pc.png" alt="" width={"60px"} />
               <div>
-                <h4>Submit your information</h4>
+                <h3>Submit your information</h3>
                 <p>Fill out our user-friendly form.</p>
               </div>
             </li>
             <li>
               <img src="/img/search.png" alt="" width={"60px"} />
               <div>
-                <h4>Lenders review your info</h4>
+                <h3>Lenders review your info</h3>
                 <p>
                   Lenders in our network will review and may present you a loan
                   offer.
@@ -34,7 +34,7 @@ const HereSection = () => {
             <li>
               <img src="/img/funding.png" alt="" width={"60px"} />
               <div>
-                <h4>Same day funding as much as $3000</h4>
+                <h3>Same day funding as much as $3000</h3>
                 <p>Directly to your bank account! Yes, it's that simple.</p>
               </div>
             </li>

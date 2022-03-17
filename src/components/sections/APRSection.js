@@ -1,5 +1,5 @@
 import React from "react";
-import TableApr from "../table/TableApr";
+// import TableApr from "../table/TableApr";
 
 const APRSection = () => {
   return (
@@ -29,9 +29,9 @@ const APRSection = () => {
           <h2>Examples of Costs & APR</h2>
         </div>
 
-        <div>
+        {/* <div>
           <TableApr />
-        </div>
+        </div> */}
 
         <div className="apr_content">
           <h2>Representative Example (Qualified Customers)</h2>

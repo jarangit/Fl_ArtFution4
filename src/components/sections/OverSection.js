@@ -20,7 +20,7 @@ const OverSection = () => {
         src="/img/secure_1_1.png"
         className="over_img"
         alt=""
-        width={"500px"}
+        width={"100%"}
       />
     </div>
   );

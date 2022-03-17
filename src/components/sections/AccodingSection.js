@@ -6,11 +6,10 @@ const AccodingSection = () => {
     return (
       <div className="aq_box">
         <div className="aq_box_item" onClick={() => setOpen(!isOpen)}>
-          <p>{title}</p>
+          <p className={`${isOpen ? "active" : ""}`}>{title}</p>
         </div>
         <div className={`aq_box_item_content ${!isOpen ? "active" : ""}`}>
           <div className="aq_content">{content}</div>
-          {/* {list && list()} */}
         </div>
       </div>
     );
@@ -19,8 +18,9 @@ const AccodingSection = () => {
     <div>
       <div className="accodong">
         <div className="accoding_title">
-          <p>Our Faq's</p>
+          <h4>Our Faq's</h4>
           <h2>Have any questions?</h2>
+          <img src="/img/dots.png" alt="" className="accoding_img_dots" />
         </div>
 
         <div>

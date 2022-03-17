@@ -2,15 +2,23 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 200px 0;
+  padding: 200px 10px;
   max-width: 1200px;
   margin: 0 auto;
 }
 
 .accoding_title {
   text-align: center;
+  position: relative;
 }
-.accoding_title > p {
+.accoding_img_dots {
+  position: absolute;
+  right: -145px;
+  top: -110px;
+  opacity: 50%;
+  transform: rotate(-2deg);
+}
+.accoding_title > h4 {
   color: orange;
 }
 .aq_box {
@@ -19,7 +27,7 @@
 .aq_box_item > p {
   margin: 0;
   display: block;
-  border-bottom: 2px solid #dadada;
+  border-bottom: 1px solid #dadada;
   color: #333;
   padding: 14px 45px 14px 14px;
   font-size: 16px;
@@ -27,34 +35,38 @@
   position: relative;
   cursor: pointer;
   font-weight: bold;
+  transition: all 0.3s;
 }
 .aq_box_item > p::before {
-  content: "+";
-  font-weight: 900;
-  font-size: 14px;
+  content: "\f078";
+  font-weight: 800;
+  font-size: 18px;
   width: 35px;
   height: 45px;
   line-height: 48px;
-  background: #e3e7ea;
   position: absolute;
   top: 4px;
   right: 0px;
   font-size: 16px;
-  color: #333;
+  color: var(--jr_blue);
   text-align: center;
   cursor: pointer;
+  font-family: "Font Awesome 5 Free";
+  transition: all 0.3s;
 }
 .aq_box_item_content {
   font-size: 12px;
-
   overflow: hidden;
-  transition: max-height 0.3s cubic-bezier(1, 0, 1, 0);
+  transition: max-height 0.2s cubic-bezier(1, 0, 1, 0);
   height: auto;
   max-height: 9999px;
 }
 .aq_box_item_content.active {
   max-height: 0;
-  transition: max-height 0.35s cubic-bezier(0, 1, 0, 1);
+  transition: max-height 0.2s cubic-bezier(0, 1, 0, 1);
+}
+.aq_box_item > p.active::before {
+  transform: rotate(180deg);
 }
 .aq_content {
   padding: 20px 30px;
