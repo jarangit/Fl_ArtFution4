@@ -20,3 +20,33 @@ td {
   padding: 5px;
   text-align: center;
 }
+
+.apr_table_left {
+  visibility: hidden;
+  display: none;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.apr_table_left,
+th,
+td {
+  border: 1px solid rgb(194, 194, 194);
+  font-size: 15px;
+  padding: 5px;
+  text-align: left;
+}
+.apr_table_left > tr > th {
+  width: 50%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .apr_table_left {
+    display: inline-table;
+    visibility: visible;
+  }
+  .apr_table {
+    display: none;
+  }
+}

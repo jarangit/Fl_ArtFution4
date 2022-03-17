@@ -5,11 +5,13 @@
   padding: 200px 10px;
   max-width: 1200px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .accoding_title {
   text-align: center;
   position: relative;
+  width: 100%;
 }
 .accoding_img_dots {
   position: absolute;
