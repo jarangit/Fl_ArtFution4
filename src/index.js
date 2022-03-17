@@ -5,6 +5,7 @@ import App from "./App";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Page1 from "./routers/Page1";
 import Layout from "./components/Layout";
+import GetStart from "./routers/GetStart";
 ReactDOM.render(
   <BrowserRouter>
     {/* <React.StrictMode> */}
@@ -12,6 +13,7 @@ ReactDOM.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="page1" element={<Page1 />} />
+        <Route path="/get_start" element={<GetStart />} />
       </Routes>
     </Layout>
     {/* </React.StrictMode> */}

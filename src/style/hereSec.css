@@ -1,11 +1,10 @@
 .here {
   background-color: #edf6fd;
 }
-
 .here_container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 100px 10px;
+  padding: 100px 0;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;

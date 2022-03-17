@@ -4,14 +4,14 @@
   align-items: center;
   padding: 10px;
 }
+
 .menu_container > ul {
   display: flex;
 }
 .menu_container > ul > li {
   margin-left: 20px;
 }
-
 .menu_link:hover {
-  color: #34a2f7;
+  color: var(--jr_blue);
   transition: all 0.5s;
 }
