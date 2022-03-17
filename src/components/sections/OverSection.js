@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 const OverSection = () => {
   return (
     <div className="over">
-      {/* <div className=""> */}
       <div className="over_content">
         <h3>Over 2 Million Customers Served and the numbers are growing</h3>
         <p>
@@ -20,7 +19,7 @@ const OverSection = () => {
         src="/img/secure_1_1.png"
         className="over_img"
         alt=""
-        width={"100%"}
+        width={"60%"}
       />
     </div>
   );

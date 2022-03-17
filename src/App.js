@@ -21,7 +21,7 @@ function App() {
       <AboutSection />
       <AccodingSection />
       <APRSection />
-      ​<OverSection />
+      <OverSection />
     </div>
   );
 }

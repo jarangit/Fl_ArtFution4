@@ -8,7 +8,6 @@ import Layout from "./components/Layout";
 import GetStart from "./routers/GetStart";
 ReactDOM.render(
   <BrowserRouter>
-    {/* <React.StrictMode> */}
     <Layout>
       <Routes>
         <Route path="/" element={<App />} />
@@ -16,7 +15,6 @@ ReactDOM.render(
         <Route path="/get_start" element={<GetStart />} />
       </Routes>
     </Layout>
-    {/* </React.StrictMode> */}
   </BrowserRouter>,
   document.getElementById("root")
 );

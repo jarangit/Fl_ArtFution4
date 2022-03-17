@@ -23,7 +23,12 @@ const Banner = () => {
           width="150px"
           className="banner_img_dots"
         />
-        <img src="/img/cover.png" alt="" width="400px" />
+        <img
+          src="/img/cover.png"
+          alt=""
+          width="500px"
+          className="banner_img_main"
+        />
       </div>
     </div>
   );

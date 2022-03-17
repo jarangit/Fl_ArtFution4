@@ -45,7 +45,7 @@
 .banner_img_dots {
   position: absolute;
   top: 0;
-  right: -30px;
+  right: -1px;
   z-index: -1;
 }
 
@@ -55,5 +55,8 @@
   }
   .banner_comtent > h1 {
     font-size: 6vw;
+  }
+  .banner_img_main {
+    width: 300px;
   }
 }
