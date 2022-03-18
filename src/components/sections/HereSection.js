@@ -5,7 +5,7 @@ const HereSection = () => {
     <div className="here">
       <div className="here_container">
         <div className="here_img">
-          <img src="/img/howitworks2.webp" alt="" width={"300px"} />
+          <img src="/img/howitworks2.webp" alt="" width={"325px"} />
         </div>
 
         <div className="here_content">

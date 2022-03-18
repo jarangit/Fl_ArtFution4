@@ -9,6 +9,7 @@
 .footer_content {
   margin: 30px 0;
   color: #7c7c7c;
+  padding: 20px;
 }
 
 .footer_menu {
@@ -24,6 +25,12 @@
   margin-bottom: 20px;
   justify-content: space-evenly;
   gap: 30px;
+}
+.footer_menu_link > li {
+  font-size: 10px;
+}
+.footer_menu_icon > li {
+  font-size: 30px;
 }
 .footer_copyRight {
   background-color: white;

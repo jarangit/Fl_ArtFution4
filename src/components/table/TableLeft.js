@@ -11,35 +11,35 @@ const TableLeft = () => {
           </tr>
           <tr>
             <th>INTEREST RATE</th>
-            <td>{item.loan_amount}</td>
+            <td>{item.interest_rate}</td>
           </tr>
           <tr>
             <th>LOAN TERM</th>
-            <td>{item.loan_amount}</td>
+            <td>{item.laon_term}</td>
           </tr>
           <tr>
             <th> FEE </th>
-            <td>{item.loan_amount}</td>
+            <td>{item.fee}</td>
           </tr>
           <tr>
             <th>FEE COST</th>
-            <td>{item.loan_amount}</td>
+            <td>{item.fee_cost}</td>
           </tr>
           <tr>
             <th>REPAYMENT</th>
-            <td>{item.loan_amount}</td>
+            <td>{item.repayment}</td>
           </tr>
           <tr>
             <th>APR</th>
-            <td>{item.loan_amount}</td>
+            <td>{item.apr}</td>
           </tr>
           <tr>
             <th>TOTAL REPAYMENTS</th>
-            <td>{item.loan_amount}</td>
+            <td>{item.total_repayments}</td>
           </tr>
           <tr>
             <th>TOTAL COST</th>
-            <td>{item.loan_amount}</td>
+            <td>{item.total_cost}</td>
           </tr>
         </table>
       ))}

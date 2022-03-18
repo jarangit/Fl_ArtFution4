@@ -34,14 +34,14 @@ const Footer = () => {
         </div>
 
         <div className="footer_menu">
-          <ul>
+          <ul className="footer_menu_link">
             <li>HOME</li>
             <li>HOW IT WORKS</li>
             <li>ABOUT US</li>
             <li>FAQS</li>
           </ul>
 
-          <ul>
+          <ul className="footer_menu_icon">
             <li>
               <ImFacebook />
             </li>

@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 const OverSection = () => {
   return (
     <div className="over">
@@ -10,10 +9,13 @@ const OverSection = () => {
           or family.
         </p>
         <div>
-          <Link to="/">
+          <a href="/get_start">
             <button className="over_but"> GET STARTED NOW</button>
-          </Link>
+          </a>
         </div>
+        <img src="/img/cloud_1.png" alt="" className="over_img_cloud1" />
+        <img src="/img/cloud_2.png" alt="" className="over_img_cloud2" />
+        <img src="/img/plant.png" alt="" className="over_img_plant" />
       </div>
       <img
         src="/img/secure_1_1.png"

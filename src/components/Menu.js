@@ -6,7 +6,9 @@ const Menu = () => {
     <div className="menu">
       <div className="jr_container menu_container">
         <div className="menu_logo">
-          <img src="/img/logo.png" alt="" width={"70px"} />
+          <a href="/">
+            <img src="/img/logo.png" alt="" width={"70px"} />
+          </a>
         </div>
         <ul>
           <li>

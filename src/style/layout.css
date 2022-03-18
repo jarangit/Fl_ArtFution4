@@ -10,6 +10,7 @@
 }
 .menu_container > ul > li {
   margin-left: 20px;
+  font-size: 12px;
 }
 .menu_link:hover {
   color: var(--jr_blue);
