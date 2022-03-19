@@ -2,6 +2,9 @@
 :root {
   --jr_blue: #33a1f6;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   padding: 0;

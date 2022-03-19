@@ -15,14 +15,14 @@ const HereSection = () => {
           </p>
           <ul>
             <li>
-              <img src="/img/pc.png" alt="" width={"60px"} />
+              <img src="/img/pc.png" alt="" width={"100%"} />
               <div>
                 <h3>Submit your information</h3>
                 <p>Fill out our user-friendly form.</p>
               </div>
             </li>
             <li>
-              <img src="/img/search.png" alt="" width={"60px"} />
+              <img src="/img/search.png" alt="" width={"100%"} />
               <div>
                 <h3>Lenders review your info</h3>
                 <p>
@@ -32,7 +32,7 @@ const HereSection = () => {
               </div>
             </li>
             <li>
-              <img src="/img/funding.png" alt="" width={"60px"} />
+              <img src="/img/funding.png" alt="" width={"100%"} />
               <div>
                 <h3>Same day funding as much as $3000</h3>
                 <p>Directly to your bank account! Yes, it's that simple.</p>

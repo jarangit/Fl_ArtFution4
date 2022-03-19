@@ -17,9 +17,9 @@ function App() {
   return (
     <div>
       <Banner />
-      <HereSection />
+      <HereSection id="how" />
       <AboutSection />
-      <AccodingSection />
+      <AccodingSection id="faqs" />
       <APRSection />
       <OverSection />
     </div>

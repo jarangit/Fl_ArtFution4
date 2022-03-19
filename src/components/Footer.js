@@ -1,7 +1,7 @@
 import React from "react";
-import { ImFacebook } from "react-icons/im";
-import { AiOutlineTwitter } from "react-icons/ai";
-import { BsInstagram } from "react-icons/bs";
+// import { ImFacebook } from "react-icons/im";
+// import { AiOutlineTwitter } from "react-icons/ai";
+// import { BsInstagram } from "react-icons/bs";
 const Footer = () => {
   return (
     <div className="footer">
@@ -32,7 +32,7 @@ const Footer = () => {
             subsidiary of FixMedia llc.
           </p>
         </div>
-
+        {/* 
         <div className="footer_menu">
           <ul className="footer_menu_link">
             <li>HOME</li>
@@ -52,7 +52,7 @@ const Footer = () => {
               <BsInstagram />
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
       <div className="footer_copyRight">
         <p>

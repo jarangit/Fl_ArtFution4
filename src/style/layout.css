@@ -11,6 +11,7 @@
 .menu_container > ul > li {
   margin-left: 20px;
   font-size: 12px;
+  cursor: pointer;
 }
 .menu_link:hover {
   color: var(--jr_blue);

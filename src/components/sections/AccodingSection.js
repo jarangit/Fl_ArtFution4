@@ -9,7 +9,10 @@ const AccodingSection = () => {
           <p className={`${isOpen ? "active" : ""}`}>{title}</p>
         </div>
         <div className={`aq_box_item_content ${!isOpen ? "active" : ""}`}>
-          <div className="aq_content">{content}</div>
+          <div className="aq_content">
+            {content}
+            {list && list()}
+          </div>
         </div>
       </div>
     );

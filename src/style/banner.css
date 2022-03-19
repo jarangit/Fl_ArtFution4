@@ -48,7 +48,9 @@
   right: -1px;
   z-index: -1;
 }
-
+.banner_count_down_time {
+  color: var(--jr_blue);
+}
 @media only screen and (max-width: 1200px) {
   .banner_comtent {
     max-width: 300px;

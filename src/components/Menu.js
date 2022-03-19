@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
+// import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 const Menu = () => {
   return (
     <div className="menu">
@@ -12,22 +12,22 @@ const Menu = () => {
         </div>
         <ul>
           <li>
-            <Link to="/" className="menu_link">
+            <a href="/" className="menu_link">
               HOME
-            </Link>
+            </a>
           </li>
           <li>
-            <Link to="/" className="menu_link">
+            <Link to="here" className="menu_link">
               HOW IT WORKS
             </Link>
           </li>
           <li>
-            <Link to="/" className="menu_link">
+            <Link to="about" className="menu_link">
               ABOUT US
             </Link>
           </li>
           <li>
-            <Link to="/" className="menu_link">
+            <Link to="accodong" className="menu_link">
               FAQS
             </Link>
           </li>
