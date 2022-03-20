@@ -16,7 +16,7 @@
 .accoding_img_dots {
   position: absolute;
   right: -145px;
-  top: -110px;
+  top: -113px;
   opacity: 50%;
   transform: rotate(-2deg);
 }
@@ -24,7 +24,8 @@
   color: orange;
 }
 .aq_box {
-  width: 100%;
+  max-width: 550px;
+  margin: 0 auto;
 }
 .aq_box_item > p {
   margin: 0;

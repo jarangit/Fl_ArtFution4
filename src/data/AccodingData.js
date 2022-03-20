@@ -21,7 +21,8 @@ export const dataAccoding = [
     content: `A bank account number and routing number is required for you to be connected to a lender. This cannot be circumvented and, is where funds if approved will be deposited`,
   },
   {
-    title: "Why do I have to provide my bank account information?",
+    title:
+      "Why was I redirected to another site after submitting the application?",
     content: `NorthBay Cash does not lend money or process loans. Upon approval, we redirect you to one of our approved lenders. You may be asked to provide additional information.`,
   },
 ];
